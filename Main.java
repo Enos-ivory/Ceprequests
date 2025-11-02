@@ -14,8 +14,8 @@ public class Main {
         String cep = scanner.nextLine();
 
 
-        Requisicoes searchFilm = new Requisicoes();
-        String busca = searchFilm.request(cep);
+        Requisicoes searchInfo = new Requisicoes();
+        String busca = searchInfo.request(cep);
 
         System.out.println("Retorno da APi viaCEP: ");
         System.out.println(gson.toJson(gson.fromJson(busca, Object.class)));
