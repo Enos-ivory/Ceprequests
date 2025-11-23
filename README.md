@@ -5,7 +5,7 @@ O programa faz a requisição HTTP, obtém o JSON da API e exibe os dados format
 
 ---
 
-## 🚀 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - ☕ **Java 17+**
 - 🌐 **HttpClient (Java.net.http)**
